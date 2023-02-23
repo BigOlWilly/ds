@@ -1,5 +1,5 @@
 sudo apt-get update
-sudo apt install python-pip3
+sudo apt install python3-pip
 
 git clone https://github.com/MatrixTM/MHDDoS
 
