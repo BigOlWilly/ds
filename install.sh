@@ -1,9 +1,8 @@
-sudo su
-apt-get update
-apt install python-pip3
+sudo apt-get update
+sudo apt install python-pip3
 
-chmod +x start
+sudo chmod +x start
 
-pip3 install -r requirements.txt
+sudo pip3 install -r requirements.txt
 
-python3 main.py
+sudo python3 main.py
