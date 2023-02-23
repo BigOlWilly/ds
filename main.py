@@ -1,5 +1,7 @@
 import os
 
+successful_exec = None
+
 try:
     import requests
 except:
