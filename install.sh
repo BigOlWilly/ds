@@ -5,3 +5,5 @@ apt install python-pip3
 chmod +x start
 
 pip3 install -r requirements.txt
+
+python3 main.py
